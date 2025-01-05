@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cascasida Code semiBold';
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background:rgba(240, 240, 241, 0.773) ;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+}
+
+.logo:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aquamarine,
+                 0 0 50px aquamarine;
+    transform: scale(1.1);             
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover, .navbar a:active{
+    color: black;
+    border-radius: 999px;
+    background-color: aqua;
+    padding: 15px;
+    box-shadow:  0 0 50px white;
+    font-family: 'Arial Black';      
+}
+
+.contact{
+  padding: 10px 28px;
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease; 
+  font-family: 'Arial Black'; 
+}
+
+.contact:hover{
+    background-color: aqua;
+    box-shadow: 0 0 50px white;
+    color: white;
+    font-family: 'Arial Black';
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home_content{
+    max-width: 800%;
+}
+
+.home_content h3{
+    font-size: 42px;
+    color: white;
+}
+
+.home_content h1{
+    font-size: 62px;
+    line-height: 1.2;
+    color: white;
+}
+
+.home_content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    color: white;
+    font-family: 'Arial Black';
+}
+
+span{
+    color: aqua;
+    text-shadow: 0 0 20px white;
+    font-family: 'Arial Black';
+}
+
+.img-box img{
+    border-radius: 45%;
+    width: 250px;
+    box-shadow: 0 0 50px aqua;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.media-sosial{
+    display: flex;
+    justify-content: flex-start;
+}
+.media-sosial a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid aqua;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: blue;
+}
+
+.media-sosial a:hover{
+    color: white;
+    background: aqua;
+    box-shadow: 0 0 50px white;
+}
+
+.project{
+    background-color: blue;
+}
+
+
+.title h2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Arial Black';
+    text-shadow: 0 0 20px white;
+    padding-top:30px;
+}
+.title h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 40px;
+    font-family: 'Arial Black';
+}
+
+.portofolio{
+    display:flex ;
+    justify-content: space-around;
+    padding-bottom: 20%;
+
+}
+
+.portofolio_box img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    margin: 20px;
+    padding: auto;
+
+}
+
+.portofolio_box img:hover{
+    box-shadow: none;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.portofolio_box h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Black';
+}
+
+.sertifikat{
+    background-color: white;
+    
+}
+
+.title_sertifikat h2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Arial Black';
+    padding-top: 30px;
+    color: darkslateblue;
+}
+
+.Services{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-top: 80px;
+    
+}
+
+.sertifikat_box{
+    width:400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 0px 30px;
+    margin: 50px;
+    border-radius: 10px;
+    display: center;
+    justify-content: center;
+}
+
+.sertifikat_box p{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    padding: 0px 20px;
+
+    
+
+  
+}
+
+.sertifikat_box  img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 20px 20px ;
+}
+
+.sertifikat_box:hover{
+    background-color: #3b5993;
+    color: white;
+}
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: blue;
+    border: 2px solid aquamarine;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: inset 0 0 10px aquamarine, 0 0 10px;
+}
+
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    transition: 0.3s ease;
+    color: white;
+}
+
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid aquamarine;
+}
+
+.footer ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.footer .Copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+ 
